@@ -67,7 +67,7 @@ void main() async {
       habitsRoute: (context) => MainView(currentIndex: 0),
       verifyEmailRoute: (context) => const VerifyEmailView(),
       settingsRoute: (context) => const SettingsView(),
-      landingRoute: (context) => const OnBoardingScreen(),
+      landingRoute: (context) => IntroScreen(),
     },
   ));
 }
